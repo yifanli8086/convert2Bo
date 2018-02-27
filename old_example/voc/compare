@@ -1,0 +1,4 @@
+#!/bin/bash 
+rm result.txt
+python merge.py 355 
+python compare.py result.txt det.txt

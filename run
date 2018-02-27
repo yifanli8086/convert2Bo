@@ -1,0 +1,3 @@
+#!/bin/bash 
+rm /example/voc/results/*.txt
+python voc.py voc.names example/voc/JPEG/ example/voc/label/ example/voc/results/
